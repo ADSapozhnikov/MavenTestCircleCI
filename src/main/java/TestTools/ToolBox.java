@@ -87,7 +87,7 @@ public class ToolBox {
             msg.setFrom(new InternetAddress (from));
             InternetAddress[] address = {new InternetAddress(to)};
             msg.setRecipients(Message.RecipientType.TO, address);
-            msg.setRecipients(Message.RecipientType.CC, address2);
+//            msg.setRecipients(Message.RecipientType.CC, address2);
             msg.setSubject("URGENT - some significant problems with BU");
             msg.setSentDate(new Date ());
 

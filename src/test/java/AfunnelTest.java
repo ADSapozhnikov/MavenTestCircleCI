@@ -65,9 +65,7 @@ public class AfunnelTest {
             }
 //Якщо всі 3 перевірки не пройшли - надсилаємо емаіл/смс
                     else {
-                        writeSomethingIntoLogFile =                             "Can't access: " + appURL[i] +
-                           "               and\n                                                               " + appURL2[i] +
-                           "      and also\n                                                               " + appURL3[i];
+                        writeSomethingIntoLogFile =                             "Can't access: " + appURL[i] ;
                         ToolsChooser.tools.protocolirenTool (writeSomethingIntoLogFile);
                         //String sendEmailText = "Can't access the " + appURL[i];
                         ToolsChooser.sendEmail ();
@@ -76,8 +74,7 @@ public class AfunnelTest {
         //                Thread.sleep ( 300000 );
 
                     }
-                }
-            }
+
             writeSomethingIntoLogFile = "";
             ToolsChooser.tools.protocolirenTool (writeSomethingIntoLogFile);
             writeSomethingIntoLogFile = "-------------------------------------------";
