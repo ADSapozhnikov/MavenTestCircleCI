@@ -4,6 +4,10 @@ machine:
     Europe/Kiev # Set the timezone
   java:
     version: openjdk8
+  #  # Override /etc/hosts
+  hosts:
+    circlehost: 127.0.0.1
+    localhost: 127.0.0.1
 
 dependencies:
   override:
@@ -23,10 +27,7 @@ dependencies:
     - sudo apt-get --only-upgrade install google-chrome-stable
     - google-chrome --version
 
-#  # Override /etc/hosts
-  hosts:
-    circlehost: 127.0.0.1
-    localhost: 127.0.0.1
+
 #
 #  # Add some environment variables
 #  environment:
