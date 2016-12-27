@@ -2,17 +2,20 @@ package PageTypes;
 
 import TestTools.ToolBox;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 public class ToolsChooser {
 
-    public static RemoteWebDriver driver;
+ //   public static RemoteWebDriver driver;
+    public static WebDriver driver;
     Logger log;
     public static ToolBox tools;
     //private org.testng.ITestResult ITestResult;
 
-    public ToolsChooser(RemoteWebDriver driver) {
+//    public ToolsChooser(RemoteWebDriver driver) {
+    public ToolsChooser(WebDriver driver) {
         this.driver = driver;
         log = Logger.getLogger (getClass ());
         tools = new ToolBox (driver);
