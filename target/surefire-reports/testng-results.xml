@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AfunnelTest" duration-ms="15767" started-at="2016-12-26T12:01:07Z" finished-at="2016-12-26T12:01:23Z">
+  <suite name="AfunnelTest" duration-ms="55818" started-at="2016-12-27T12:20:56Z" finished-at="2016-12-27T12:21:52Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="15767" started-at="2016-12-26T12:01:07Z" finished-at="2016-12-26T12:01:23Z">
+    <test name="Command line test" duration-ms="55818" started-at="2016-12-27T12:20:56Z" finished-at="2016-12-27T12:21:52Z">
       <class name="AfunnelTest">
-        <test-method status="PASS" signature="testPageTitleInChrome()[pri:0, instance:AfunnelTest@71be98f5]" name="testPageTitleInChrome" duration-ms="15752" started-at="2016-12-26T14:01:07Z" finished-at="2016-12-26T14:01:23Z">
+        <test-method status="PASS" signature="testPageTitleInChrome()[pri:0, instance:AfunnelTest@22f71333]" name="testPageTitleInChrome" duration-ms="55803" started-at="2016-12-27T14:20:56Z" finished-at="2016-12-27T14:21:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPageTitleInChrome -->
