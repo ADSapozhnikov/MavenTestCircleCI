@@ -1,8 +1,8 @@
 package TestTools;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.activation.DataHandler;
@@ -29,11 +29,13 @@ import static TestTools.Config.ui;
 
 public class ToolBox {
 
-    RemoteWebDriver driver;
+ //   RemoteWebDriver driver;
+    WebDriver driver;
     Logger log;
     WebDriverWait wait;
 
-    public ToolBox(RemoteWebDriver driver){
+    //public ToolBox(RemoteWebDriver driver){
+    public ToolBox(WebDriver driver){
         this.driver = driver;
         log = Logger.getLogger(getClass());
        wait = new WebDriverWait(driver, 20);
